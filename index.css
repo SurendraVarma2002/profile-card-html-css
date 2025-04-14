@@ -1,0 +1,87 @@
+/* Reset and base */
+body {
+    margin: 0;
+    background: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+#pageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Card */
+#profileCard {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profile Picture */
+#profilePicture img {
+    width: 150px;
+    border-radius: 10%;
+    object-fit: cover;
+    border: 1px solid #000000;
+    margin-bottom: 1rem;
+}
+
+/* Self Details */
+#selfDetails {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+}
+
+.details {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.detailsSpan {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Links */
+a {
+    color: #0073b1;
+    text-decoration: none;
+    margin-top: 0.5rem;
+    transition: color 0.3s ease;
+    display: block;
+
+}
+
+a:hover {
+    color: #005582;
+    text-decoration: underline;
+}
+
+/* Signature */
+#signatureCard {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+#signature {
+    font-style: italic;
+    font-weight: 500;
+    color: #444;
+}
